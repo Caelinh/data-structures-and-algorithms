@@ -9,44 +9,37 @@ using the 'reduce' method.
 E.g. [4,2,7,5,9,2] -> 9
 ------------------------------------------------------------------------------------------------ */
 const maxInArray = (arr) => {
-  const newArr = arr.reduce((a,b) => Math.max(a,b),-Infinity);
-  return newArr;
+  return arr.reduce((a, b) => Math.max(a, b));
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
-Write a function named getCourseKeys that takes in the courseInfo object and returns an array
-containing the keys for the courseInfo object.
+Write a function named getCourseKeys that takes in the courseInfo object and returns an array containing the keys for the courseInfo object.
 
 For example: (['name', 'duration', 'topics', 'finalExam']).
 ------------------------------------------------------------------------------------------------ */
-const courseInfo = { name: 'Code 301', duration: { dayTrack: '4 weeks', eveningTrack: '8 weeks'},
+const courseInfo = {
+  name: 'Code 301', duration: { dayTrack: '4 weeks', eveningTrack: '8 weeks' },
   topics: ['SMACSS', 'APIs', 'NodeJS', 'SQL', 'jQuery', 'functional programming'],
   finalExam: true
 };
 
 const getCourseKeys = (obj) => {
-  let properties =Object.keys(obj);
-  return properties;
+  return Object.keys(obj);
 };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
-Write a function named checkValues that takes in an object and a value and
-returns true if the value is in the object.
+Write a function named checkValues that takes in an object and a value and returns true if the value is in the object.
 
 
 ------------------------------------------------------------------------------------------------ */
 
 const checkValues = (obj, value) => {
-  Object.values(obj).forEach(data => {
-    if (data === value) {
-      return true;
-    }else return false;
-  });
-
+  let arr = Object.values(obj);
+  return arr.includes(value);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -69,8 +62,9 @@ HR has asked you to change the data to make it easier to print so that it looks 
 ------------------------------------------------------------------------------------------------ */
 
 const updateNumbers = (obj) => {
-  let numbers = Object.values(obj);
-  return numbers;
+  let newArr = [];
+  Object.keys(obj).forEach(key => newArr.push(`${key}: ${obj[key]}`));
+  return newArr;
 };
 
 
@@ -126,7 +120,9 @@ const characters = [
 
 const getHouses = (arr) => {
   let houses = [];
-  // Solution code here...
+  Object.values(arr).forEach(obj => {
+    houses.push(obj.house);
+  });
   return houses;
 };
 
