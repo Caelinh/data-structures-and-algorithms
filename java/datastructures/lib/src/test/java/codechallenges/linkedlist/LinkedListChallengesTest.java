@@ -14,4 +14,5 @@ public class LinkedListChallengesTest
     System.out.println("test something here");
     assertTrue(true);
   }
+
 }

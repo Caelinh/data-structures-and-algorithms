@@ -8,7 +8,7 @@ public class LinkedListChallenges
 
   public LinkedListChallenges()
   {
-    linkedList = new LinkedList();
+
   }
 
   public void linkedListChallenge06()

@@ -1,10 +1,17 @@
 package datastructures.linkedlist;
 
-public class LinkedList
-{
-  @Override
-  public String toString()
-    {
-        return "null";  // TODO: implement me
-    }
+
+
+
+public class LinkedList {
+  Node head = null;
+  Node tail = null;
+
+  public LinkedList(Node head) {
+    this.head = head;
+  }
+
+
+
 }
+
