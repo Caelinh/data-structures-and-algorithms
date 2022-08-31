@@ -18,7 +18,7 @@ public class AnimalShelterTests {
     shelter.enqueue(tabby);
 
     assertEquals(tabby,shelter.shelter.peek());
-    
+
 
   }
 
