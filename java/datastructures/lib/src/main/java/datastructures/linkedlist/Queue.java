@@ -1,12 +1,12 @@
 package datastructures.linkedlist;
 
-public class Queue {
+public class Queue <T>{
 
-  private Node front;
-  private Node back;
+  private Node<T> front;
+  private Node<T> back;
 
-  public void enqueue(int value){
-    Node node = new Node(value);
+  public void enqueue(T value){
+    Node<T> node = new Node<>(value);
     if (back != null){
       back.next = node;
     }
@@ -16,8 +16,8 @@ public class Queue {
       front = node;
     }
   }
-  public int dequeue() {
-    int value = front.value;
+  public T dequeue() {
+    T value = front.value;
     front = front.next;
     if (front == null) {
       back = null;
@@ -25,7 +25,7 @@ public class Queue {
     return value;
   }
 
-  public int peek(){
+  public T peek(){
     return front.value;
   }
 
