@@ -3,16 +3,16 @@ package datastructures.linkedlist;
 import java.io.IOException;
 import java.util.EmptyStackException;
 
-public class Stack {
-  private Node top = null;
+public class Stack <T>{
+  private Node<T> top = null;
 
-  public void push(int value) {
-    Node node = new Node(value);
+  public void push(T value) {
+    Node<T> node = new Node<>(value);
     node.next = top;
     top = node;
   }
-  public int pop(){
-    int value = 0;
+  public T pop(){
+    T value = null;
     try {
       value = top.value;
       top = top.next;
@@ -23,11 +23,12 @@ public class Stack {
   return value;
   }
 
-  public int peek() {
+  public T peek() {
     return top.value;
   }
   public boolean isEmpty() {
     return top == null;
   }
+
 
 }
