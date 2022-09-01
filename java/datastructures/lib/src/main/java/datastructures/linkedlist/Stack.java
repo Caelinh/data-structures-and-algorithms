@@ -4,7 +4,11 @@ import java.io.IOException;
 import java.util.EmptyStackException;
 
 public class Stack <T>{
-  private Node<T> top = null;
+  private Node<T> top;
+
+  public Stack() {
+    this.top = null;
+  }
 
   public void push(T value) {
     Node<T> node = new Node<>(value);
