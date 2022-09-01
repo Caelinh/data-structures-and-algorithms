@@ -1,9 +1,17 @@
 package datastructures.linkedlist;
 
+import java.util.EmptyStackException;
+
 public class Queue <T>{
 
-  private Node<T> front;
-  private Node<T> back;
+  public Node<T> front;
+  public Node<T> back;
+
+  public Queue() {
+    this.front = null;
+    this.back = null;
+  }
+
 
   public void enqueue(T value){
     Node<T> node = new Node<>(value);
@@ -26,10 +34,14 @@ public class Queue <T>{
   }
 
   public T peek(){
-    return front.value;
+    if(this.front == null){
+      throw new EmptyStackException();
+    }
+    return this.front.value;
   }
 
   public boolean isEmpty() {
     return front == null;
   }
+
 }
