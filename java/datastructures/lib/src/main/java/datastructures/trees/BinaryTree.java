@@ -1,15 +1,22 @@
 package datastructures.trees;
 
+import datastructures.StacksAndQueues.Queue;
+
 import java.util.ArrayList;
 
 public class BinaryTree {
-  Node root;
+  public Node root;
   ArrayList<Integer> preorderList = new ArrayList<>();
   ArrayList<Integer> inorderList = new ArrayList<>();
   ArrayList<Integer> postorderList = new ArrayList<>();
 
+
   public Node getRoot() {
     return root;
+  }
+
+  public void setRoot(Node root) {
+    this.root = root;
   }
 
   public ArrayList<Integer> getPreorderList() {
@@ -51,4 +58,25 @@ public class BinaryTree {
     }
     return postorderList;
   }
+
+  public ArrayList<Integer> breadthFirst(BinaryTree tree) {
+    ArrayList<Integer> treeVals = new ArrayList<>();
+    Queue<Node> tracker = new Queue<>();
+    tracker.enqueue(tree.getRoot());
+
+    while (!tracker.isEmpty()) {
+
+      Node temp = tracker.dequeue();
+      treeVals.add(temp.data);
+
+      if (temp.left != null) {
+        tracker.enqueue(temp.left);
+      }
+      if (temp.right != null) {
+        tracker.enqueue(temp.right);
+      }
+    }
+    return treeVals;
+  }
+  //Help with this one from https://www.geeksforgeeks.org/level-order-tree-traversal/
 }
