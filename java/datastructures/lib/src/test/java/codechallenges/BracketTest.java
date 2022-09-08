@@ -1,6 +1,6 @@
-package codechallenges.linkedlist;
-import codechallenges.linkedlist.StackChallenges;
+package codechallenges;
 
+import codechallenges.StacksAndQueues.StackChallenges;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

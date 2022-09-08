@@ -1,6 +1,4 @@
-package codechallenges.linkedlist;
-
-import datastructures.linkedlist.PseudoQueue;
+package codechallenges.StacksAndQueues;
 
 public class AnimalShelter <T>{
 

@@ -1,4 +1,6 @@
-package datastructures.linkedlist;
+package codechallenges.StacksAndQueues;
+
+import datastructures.StacksAndQueues.Stack;
 
 public class PseudoQueue <T>{
 
