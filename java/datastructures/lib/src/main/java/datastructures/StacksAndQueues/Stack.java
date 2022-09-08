@@ -1,6 +1,7 @@
-package datastructures.linkedlist;
+package datastructures.StacksAndQueues;
 
-import java.io.IOException;
+import datastructures.LinkedList.Node;
+
 import java.util.EmptyStackException;
 
 public class Stack <T>{

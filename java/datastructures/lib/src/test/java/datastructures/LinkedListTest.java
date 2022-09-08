@@ -1,5 +1,7 @@
-package datastructures.linkedlist;
+package datastructures;
 
+import codechallenges.StacksAndQueues.PseudoQueue;
+import datastructures.StacksAndQueues.Stack;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

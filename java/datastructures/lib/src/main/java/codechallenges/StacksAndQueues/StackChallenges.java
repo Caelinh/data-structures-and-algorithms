@@ -1,6 +1,6 @@
-package codechallenges.linkedlist;
+package codechallenges.StacksAndQueues;
 
-import datastructures.linkedlist.Queue;
+import datastructures.StacksAndQueues.Queue;
 
 
 public class StackChallenges {
