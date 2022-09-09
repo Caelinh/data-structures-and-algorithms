@@ -22,14 +22,13 @@ public class LinkedList <T>{
     return false;
   }
 
-  public String toString(){
-    Node<T> current = head;
-    String linkedlistString = "";
-    while (current.next != null){
-      linkedlistString += ("{"+current.value+"} -->");
-    } return linkedlistString + "NULL";
-
-  }
+//  public String toString(){
+//    Node<T> current = head;
+//    while(current.next != null){
+//
+//    }
+//
+//  }
 
 
 
