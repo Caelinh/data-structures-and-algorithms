@@ -8,5 +8,12 @@ public class Node <T>{
     this.value =  value;
   }
 
+  public Node<T> getNext() {
+    return next;
+  }
+
+  public void setNext(Node<T> next) {
+    this.next = next;
+  }
 }
 
