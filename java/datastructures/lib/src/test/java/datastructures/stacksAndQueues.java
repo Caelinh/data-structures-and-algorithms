@@ -31,7 +31,7 @@ public class stacksAndQueues {
     assertEquals(12,sut.peek());
     sut.dequeue();
     assertTrue(sut.isEmpty());
-    
+
   }
 
 
