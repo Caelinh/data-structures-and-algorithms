@@ -4,8 +4,13 @@ import datastructures.StacksAndQueues.Stack;
 
 public class PseudoQueue <T>{
 
-  private final Stack<T> firstStack = new Stack<>();
-  private final Stack<T> secondStack = new Stack<>();
+  private Stack<T> firstStack;
+  private Stack<T> secondStack;
+
+  public PseudoQueue() {
+    this.firstStack = new Stack<>();
+    this.secondStack = new Stack<>();
+  }
 
   public void enqueue(T value) {
   if (secondStack.isEmpty()){

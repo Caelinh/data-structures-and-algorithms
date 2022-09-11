@@ -52,13 +52,8 @@ Insert- Adds a value to the list
 Includes- checks to see if a value exists
 to string- convert the linked list to a string.
 
-### Resources used
-
-https://www.youtube.com/c/HackerrankOfficial
-
-
 # Stacks and Queues
-Created Stack(Last in first out) and Queue(first in first out approach) datastructure thats able to hold any type of data.
+Created Stack(Last in first out) and Queue(first in first out approach) data structure that's able to hold any type of data.
 
 ## Challenge
 Create a Stack class with the following methods
@@ -77,12 +72,12 @@ Create a Queue Class with the following methods
 Stack
 - Used nodes to keep track of position
 - created a top to keep track of top of stack
-- everyhting that is added is assigned as the new top of the stack.
+- everything that is added is assigned as the new top of the stack.
 - Peek just returns value of top node. pop removes it
 
 Queue
 - Used nodes to keep track of front and rear
-- enque adds value to back of the que
+- enqueue adds value to back of the que
 - dequeue removes from the front of the queue
 
 ## API
@@ -103,4 +98,27 @@ Queue
     - Arguments: none
     - Returns: Boolean indicating whether or not the stack is empty.
 
+
+# Pseudoqueue
+
+## Challenge
+Create a new class called pseudo queue.
+- Do not use an existing Queue.
+- Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below),
+  - Internally, utilize 2 Stack instances to create and manage the queue
+## Approach & Efficiency
+I created a pseudoqueue class with only two stacks that control the contents. TO get the FIFO approach to work I set up the logic to always ensure the first stack is clear before pushing a value. THe second stack is there to hold all the contents of the first while it is being rearranged. To remove something from the pseudo all the contents are pushed top the second stack and the last thing left in the first is popped out.
+## API
+- enqueue
+  - Arguments: value
+  - Inserts value into the PseudoQueue, using a first-in, first-out approach.
+
+- dequeue
+  - Arguments: none
+  - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
+  -
+### Resources used
+- Help from Joshua Frazer and Mandy Mason
+- https://www.youtube.com/c/HackerrankOfficial
+- GeeksforGeeks.org
 

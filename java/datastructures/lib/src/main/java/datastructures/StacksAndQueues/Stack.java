@@ -5,7 +5,7 @@ import datastructures.LinkedList.Node;
 import java.util.EmptyStackException;
 
 public class Stack <T>{
-  private Node<T> top;
+  Node<T> top;
 
   public Stack() {
     this.top = null;
@@ -29,7 +29,13 @@ public class Stack <T>{
   }
 
   public T peek() {
-    return top.value;
+
+    try {
+      return top.value;
+
+    } catch (NullPointerException ex){
+      throw new NullPointerException(ex.getMessage());
+    }
   }
   public boolean isEmpty() {
     return top == null;
