@@ -11,9 +11,11 @@ public class BracketTest {
 
   @Test
   public void testBrackets(){
+//Testing with a true
+   assertTrue(StackChallenges.validateBrackets(beTrue));
+   //test expecting false
+   assertFalse(StackChallenges.validateBrackets(beFalse));
 
-    assertTrue(StackChallenges.validateBrackets(beTrue));
-    assertFalse(StackChallenges.validateBrackets(beFalse));
   }
 
 }

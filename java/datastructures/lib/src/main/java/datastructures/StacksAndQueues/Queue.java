@@ -14,6 +14,21 @@ public class Queue <T>{
     this.back = null;
   }
 
+  public Node<T> getFront() {
+    return front;
+  }
+
+  public void setFront(Node<T> front) {
+    this.front = front;
+  }
+
+  public Node<T> getBack() {
+    return back;
+  }
+
+  public void setBack(Node<T> back) {
+    this.back = back;
+  }
 
   public void enqueue(T value){
     Node<T> node = new Node<>(value);
@@ -36,10 +51,10 @@ public class Queue <T>{
   }
 
   public T peek(){
-    if(this.front == null){
-      throw new EmptyStackException();
-    }
+    try {
     return this.front.value;
+    }catch (Exception ignore){}
+    return null;
   }
 
   public boolean isEmpty() {
