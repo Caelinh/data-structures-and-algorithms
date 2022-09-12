@@ -115,6 +115,9 @@ I created a pseudoqueue class with only two stacks that control the contents. TO
   - Arguments: none
   - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
 
+![Pseudoqueue](https://user-images.githubusercontent.com/106052558/189577699-d8bcad98-fde5-4f14-873b-57de2fe82752.jpg)
+
+
 # Binary Tree/ Search tree
 
 ## [Code](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/trees) / [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/datastructures/TreeTest.java)
