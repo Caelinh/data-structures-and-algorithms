@@ -38,25 +38,22 @@ public class TreeTest {
   public void preorder(){
     BinarySearchTree sut = new BinarySearchTree();
     sut.add(10);sut.add(15);sut.add(32);sut.add(65);sut.add(13);
-    System.out.println(sut.preorder(sut.getRoot()));
-    assertEquals(1, sut.getPreorderList().get(0));
+    assertEquals(10, sut.getPreorderList().get(0));
 
   }
   @Test
   public void inorder(){
     BinarySearchTree sut = new BinarySearchTree();
     sut.add(10);sut.add(15);sut.add(32);sut.add(65);sut.add(13);
-    System.out.println(sut.inorder(sut.getRoot()));
-    assertEquals(1, sut.getInorderList());
+    assertEquals(13, sut.getInorderList().get(1));
 
   }
   @Test
   public void postorder(){
     BinarySearchTree sut = new BinarySearchTree();
     sut.add(10);sut.add(15);sut.add(32);sut.add(65);sut.add(13);
-    System.out.println(sut.postorder(sut.getRoot()));
-    assertEquals(1, sut.getPostorderList().get(2));
-
+    sut.postorder(sut.getRoot());
+    assertEquals(32, sut.getPostorderList().get(2));
   }
 
 }
