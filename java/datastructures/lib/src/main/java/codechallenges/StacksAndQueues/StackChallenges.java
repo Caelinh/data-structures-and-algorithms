@@ -7,8 +7,9 @@ public class StackChallenges {
 
   public static boolean validateBrackets(String input) {
 
-    String[] inputArr = input.split("");
-    Queue<String> checkBrackets = new Queue<>();
+    char[] inputArr;
+    inputArr = input.toCharArray();
+    Queue<Character> checkBrackets = new Queue<>();
     int leftB = 0;
     int rightB = 0;
     int leftC = 0;
@@ -16,13 +17,13 @@ public class StackChallenges {
     int leftP = 0;
     int rightP = 0;
 
-
-    for (String entry :
+    for (char entry :
       inputArr) {
       checkBrackets.enqueue(entry);
     }
     while (checkBrackets.peek() != null) {
-      switch (checkBrackets.dequeue()) {
+
+      switch (checkBrackets.dequeue().toString()) {
         case "[" -> leftB += 1;
         case "]" -> rightB += 1;
         case "{" -> leftC += 1;
@@ -31,8 +32,7 @@ public class StackChallenges {
         case ")" -> rightP += 1;
       }
     }
-    return (leftB + rightB % 2 == 0) && (leftC + rightC % 2 == 0) && (leftP + rightP % 2 == 0);
-
+    return (leftB == rightB) && (leftC == rightC) && (leftP == rightP);
     }
   }
 
