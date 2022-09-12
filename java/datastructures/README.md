@@ -1,6 +1,6 @@
 # Data Structures
 
-## [Whiteboards](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/whiteboardsAndReadMe's)
+## [Whiteboards](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/whiteboardsAndReadMe's) and  [Challenges](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/whiteboardsAndReadMe's/ChallengesReadMe.md)
 
 # Linked List 
 
