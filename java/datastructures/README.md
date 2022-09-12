@@ -1,7 +1,10 @@
 # Data Structures
 
-# Linked List
+## [Whiteboards](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/whiteboardsAndReadMe's)
 
+# Linked List 
+
+## [Code](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/LinkedList) / [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/datastructures/TestingLinkedList.java) / 
 ## Challenge
 Create a node class and linked list class that is able to add a node, display to string and check if a node is included.
 
@@ -24,6 +27,8 @@ For this approach it was pretty straightforward as it was the initial implementa
 
 # More linked lists
 
+## [Code](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/LinkedList) / [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/datastructures/TestingLinkedList.java)
+
 ## Challenge
 
 Extend the implementation of the Linked List class to include appending, inserting before a value, and inserting after a value.
@@ -41,19 +46,10 @@ The important part of this challenge was keeping track of the node that is being
   - arguments: value, new value
   -  adds a new node with the given new value immediately after the first node that has the value specified
 
-## Challenge Stacks and queues
-Create a node class and linked list class that is able to add a node, display to string and check if a node is included.
-
-## Approach & Efficiency
-For this approach it was pretty straightforward as it was the initial implementation. The difficult part was figuring out how to iterate through the list as well as converting the values to a string.  I believe the efficiency is an O(n)
-based on the amount of nodes present in the LinkedList.
-## API
-Insert- Adds a value to the list
-Includes- checks to see if a value exists
-to string- convert the linked list to a string.
 
 # Stacks and Queues
-Created Stack(Last in first out) and Queue(first in first out approach) data structure that's able to hold any type of data.
+
+## [Code](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/StacksAndQueues) / [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/datastructures/stacksAndQueues.java) / [Challenges](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/StacksAndQueues)
 
 ## Challenge
 Create a Stack class with the following methods
@@ -101,6 +97,8 @@ Queue
 
 # Pseudoqueue
 
+## [Code](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/StacksAndQueues/PseudoQueue.java) / [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/codechallenges/PseudoQueueTests.java)
+
 ## Challenge
 Create a new class called pseudo queue.
 - Do not use an existing Queue.
@@ -118,6 +116,8 @@ I created a pseudoqueue class with only two stacks that control the contents. TO
   - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
 
 # Binary Tree/ Search tree
+
+## [Code](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/datastructures/trees) / [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/datastructures/TreeTest.java)
 
 ## Challenge
 Create a Binary Tree class
