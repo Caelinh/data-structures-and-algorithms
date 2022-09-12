@@ -61,4 +61,11 @@ Create a method that takes in a string and checks that every square/curly bracke
 ## Approach and efficiency
 For this challenge I converted the input string into a character array and pushed each value into a queue. I then made a loop to iterate through the queue to count how many of each braket type i have. If the left bracket count matches the right bracket count it returns true. TIme efficiency of O(n) based on how big the string is.  
 
+# Trees
+
+## Fizz Buzz
+![FizzBuzz](https://user-images.githubusercontent.com/106052558/189582130-1f10ec9d-16de-4e7a-ad3b-4169d8a2220b.jpg)
+
+## Challenge
+Take in a tree as an argument and replace all values that are evenly divisible by 3,5,and 15 by fizz,buzz and fuzzbuzz.
 
