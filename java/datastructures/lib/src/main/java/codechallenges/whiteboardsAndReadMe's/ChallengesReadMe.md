@@ -2,7 +2,7 @@
 
 # Linked List
 
-## Zip Lists
+## [Zip Lists](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/LinkedListChallenges/LinkedListchallenge.java)
 ![Zipped List](https://user-images.githubusercontent.com/106052558/189578651-fecedc4e-22cc-4902-b723-6ed41c11a66f.jpg)
 
 ## Challenge
@@ -16,7 +16,7 @@ just created to hold position and we can iterate through the list the rest of th
 ## API
 - Takes in 2 LinkedList Arguments and combines them together into the first linked list parameter.
 
-## Kth from the end
+## [Kth from the end](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/datastructures/LinkedList/LinkedList.java)
 ![Kth from the end](https://user-images.githubusercontent.com/106052558/189578449-7f79bfc3-8c96-4d72-8b64-6351930424f1.jpg)
 
 ## Challenge
@@ -30,7 +30,7 @@ Method kthFromTheEnd(int k){}
 
 # Stacks and queues
 
-## Animal Shelter
+## [Animal Shelter](https://github.com/Caelinh/data-structures-and-algorithms/tree/main/java/datastructures/lib/src/main/java/codechallenges/StacksAndQueues)
 ![Animal shelter](https://user-images.githubusercontent.com/106052558/189578468-5928f843-751d-4692-9ddf-a92ae9d31717.jpg)
 
 ## Challenge
@@ -51,7 +51,7 @@ Create a generic pseudo queue that can take in Animals. Have dog and cats extend
     - If pref is not "dog" or "cat" then return null.
   
 
-## Bracket check
+## [Bracket check](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/StacksAndQueues/StackChallenges.java)
 ![Stack brackets](https://user-images.githubusercontent.com/106052558/189579104-16278a9e-7354-4f41-ac91-2c7961980f6c.jpg)
 
 ## Challenge
