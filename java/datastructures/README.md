@@ -116,7 +116,35 @@ I created a pseudoqueue class with only two stacks that control the contents. TO
 - dequeue
   - Arguments: none
   - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
-  -
+
+# Binary Tree/ Search tree
+
+## Challenge
+Create a Binary Tree class
+Define a method for each of the depth first traversals:
+- pre order
+- in order
+- post order which returns an array of the values, ordered appropriately.
+## Approach & Efficiency
+- Created a tree that is contains nodes that have  value of a left and a right. The tree is created from branching nodes that extend from a base root.
+  - The pre order traversal uses recursion to give the contents of an entered tree using the order of value,recursion left, recursion right.
+  - the in order uses recursion left, value, recursion right.
+  - The post order uses left recursion ,right recursion, value.
+- Binary search tree enters value from least to greatest from left to right by comparing each value to it's parent node before adding to the tree. Starting at the root.
+ - less than goes left and greater to the right.
+ - Contains uses the previous order methods to check every value for the passed value.
+## API
+- Add
+  - Arguments: value
+  - Return: nothing
+  - Adds a new node with that value in the correct location in the binary search tree.
+- Contains
+  - Argument: value
+  - Returns: boolean indicating whether or not the value is in the tree at least once.
+
+
+
+
 ### Resources used
 - Help from Joshua Frazer and Mandy Mason
 - https://www.youtube.com/c/HackerrankOfficial
