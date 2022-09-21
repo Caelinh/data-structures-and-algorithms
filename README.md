@@ -146,6 +146,10 @@ Define a method for each of the depth first traversals:
 - Contains
   - Argument: value
   - Returns: boolean indicating whether or not the value is in the tree at least once.
+  
+# Sorting
+
+## MergeSort [Code](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/MergeSort/MergeSortChallenge.java) [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/codechallenges/MergeSortTests.java) [WhiteBoard](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/MergeSort/README.md)
 
 
 
