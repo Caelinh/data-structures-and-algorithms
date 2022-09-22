@@ -32,6 +32,8 @@ arr[i] <-- arr[low]
 arr[low] <-- temp
 ````
 ##  Whiteboard
+![QuicksortPage1](https://user-images.githubusercontent.com/106052558/191674328-0adb1aa7-a629-4de9-b741-04a6af4b3a5b.jpg)
+![QuicksortPage2](https://user-images.githubusercontent.com/106052558/191674409-332d5dbb-dbd9-4dcb-8a2f-45248ffd8760.jpg)
 
 
 ## Approach & Efficiency
