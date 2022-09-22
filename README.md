@@ -151,7 +151,7 @@ Define a method for each of the depth first traversals:
 
 ## MergeSort [Code](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/MergeSort/MergeSortChallenge.java) [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/codechallenges/MergeSortTests.java) [WhiteBoard](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/MergeSort/README.md)
 
-
+## QuickSort [Code](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/codechallenges/QuickSortChallenge/QuickSortin.java) [Tests](https://github.com/Caelinh/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/test/java/codechallenges/QuicksortTest.java) [Whiteboard]()
 
 
 ### Resources used
